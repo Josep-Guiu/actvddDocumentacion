@@ -33,3 +33,12 @@ php phpDocumentor.phar -d app -t docs
 
 Abre la carpeta docs que se creó en tu proyecto
 Haz doble clic en index.html para ver la documentación en tu navegador
+
+
+
+### WIKI y README Diferences
+💡 Tip:
+
+README.md debe ser un resumen general del proyecto.
+
+Wiki es ideal para documentación técnica detallada, explicando clases, funciones y flujo del programa.
