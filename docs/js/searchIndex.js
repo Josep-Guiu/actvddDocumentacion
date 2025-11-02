@@ -1,10 +1,40 @@
 Search.appendIndex(
     [
                 {
-            "fqsen": "\\App\\Http\\Controllers\\Controller",
-            "name": "Controller",
+            "fqsen": "\\Carrito",
+            "name": "Carrito",
+            "summary": "Clase\u0020Carrito",
+            "url": "classes/Carrito.html"
+        },                {
+            "fqsen": "\\Carrito\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Constructor\u0020de\u0020la\u0020clase\u0020Carrito\nInicializa\u0020el\u0020array\u0020de\u0020productos\u0020vac\u00EDo",
+            "url": "classes/Carrito.html#method___construct"
+        },                {
+            "fqsen": "\\Carrito\u003A\u003AagregarProducto\u0028\u0029",
+            "name": "agregarProducto",
+            "summary": "Agrega\u0020un\u0020producto\u0020al\u0020carrito",
+            "url": "classes/Carrito.html#method_agregarProducto"
+        },                {
+            "fqsen": "\\Carrito\u003A\u003AcalcularTotalCarrito\u0028\u0029",
+            "name": "calcularTotalCarrito",
+            "summary": "Calcula\u0020el\u0020total\u0020de\u0020todos\u0020los\u0020productos\u0020en\u0020el\u0020carrito",
+            "url": "classes/Carrito.html#method_calcularTotalCarrito"
+        },                {
+            "fqsen": "\\Carrito\u003A\u003AvaciarCarrito\u0028\u0029",
+            "name": "vaciarCarrito",
+            "summary": "Vac\u00EDa\u0020el\u0020carrito\u0020eliminando\u0020todos\u0020los\u0020productos",
+            "url": "classes/Carrito.html#method_vaciarCarrito"
+        },                {
+            "fqsen": "\\Carrito\u003A\u003AgetProductos\u0028\u0029",
+            "name": "getProductos",
+            "summary": "Obtiene\u0020la\u0020lista\u0020de\u0020productos\u0020en\u0020el\u0020carrito",
+            "url": "classes/Carrito.html#method_getProductos"
+        },                {
+            "fqsen": "\\Carrito\u003A\u003A\u0024productos",
+            "name": "productos",
             "summary": "",
-            "url": "classes/App-Http-Controllers-Controller.html"
+            "url": "classes/Carrito.html#property_productos"
         },                {
             "fqsen": "\\Producto",
             "name": "Producto",
@@ -61,49 +91,19 @@ Search.appendIndex(
             "summary": "The\u0020attributes\u0020that\u0020should\u0020be\u0020hidden\u0020for\u0020serialization.",
             "url": "classes/App-Models-User.html#property_hidden"
         },                {
-            "fqsen": "\\App\\Providers\\AppServiceProvider",
-            "name": "AppServiceProvider",
-            "summary": "",
-            "url": "classes/App-Providers-AppServiceProvider.html"
-        },                {
-            "fqsen": "\\App\\Providers\\AppServiceProvider\u003A\u003Aregister\u0028\u0029",
-            "name": "register",
-            "summary": "Register\u0020any\u0020application\u0020services.",
-            "url": "classes/App-Providers-AppServiceProvider.html#method_register"
-        },                {
-            "fqsen": "\\App\\Providers\\AppServiceProvider\u003A\u003Aboot\u0028\u0029",
-            "name": "boot",
-            "summary": "Bootstrap\u0020any\u0020application\u0020services.",
-            "url": "classes/App-Providers-AppServiceProvider.html#method_boot"
-        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
             "url": "namespaces/default.html"
-        },                {
-            "fqsen": "\\App\\Http\\Controllers",
-            "name": "Controllers",
-            "summary": "",
-            "url": "namespaces/app-http-controllers.html"
-        },                {
-            "fqsen": "\\App\\Http",
-            "name": "Http",
-            "summary": "",
-            "url": "namespaces/app-http.html"
-        },                {
-            "fqsen": "\\App",
-            "name": "App",
-            "summary": "",
-            "url": "namespaces/app.html"
         },                {
             "fqsen": "\\App\\Models",
             "name": "Models",
             "summary": "",
             "url": "namespaces/app-models.html"
         },                {
-            "fqsen": "\\App\\Providers",
-            "name": "Providers",
+            "fqsen": "\\App",
+            "name": "App",
             "summary": "",
-            "url": "namespaces/app-providers.html"
+            "url": "namespaces/app.html"
         }            ]
 );
